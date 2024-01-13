@@ -1,3 +1,46 @@
+
+# Project3-part2
+
+In this section, we want to investigate the following stochastic process and draw average and autocorrelation graphs and compare them with theoretically obtained functions.
+
+
+![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/83cd72fa-7dc9-4135-9a75-c36777078f00)
+
+
+First, we obtain the mean and the autocorrelation function of the random process and then determine the type of the process.
+
+
+![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/d8770350-4c2d-43b7-b38f-2a3069317081)
+
+
+Considering that the mean is zero, it means that it is independent of time, and the autocorrelation function is independent of time, that is, it is not a function of t, but only a function of τ, so the type of process is WSS.
+
+In this section, we draw the random process and average it with respect to theta.
+
+![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/f5c663f9-6bfc-4474-9a7d-4cb871a561eb)
+
+
+According to the obtained autocorrelation function, we draw the autocorrelation diagram of the process in three dimensions.
+
+
+![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/4d8c2bf8-ea6b-4fbc-b85f-94bcf0c3f572)
+
+
+We draw the average and correlation functions obtained in the theoretical mode (the average was obtained as zero).
+
+
+![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/e7189c0f-fbf9-4e2b-8afa-4d041e31147a)
+
+![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/46aa88d9-15c3-41c4-9481-231a22a8ecaf)
+
+
+The mean function obtained from the theoretical relations is slightly different from the mean function drawn in MATLAB. The mean function drawn in MATLAB is in cosine form, but due to the small range, it can be ignored. And in the figures of autocorrelation functions, we also find that considering that the graph drawn with the help of MATLAB is three-dimensional, in order to compare the two, we have to look at them in two-dimensional form, in this case, we realize that the graphs of autocorrelation drawn are similar is.
+
+To obtain the stationary process, we average with respect to t using the implementation of the autocorrelation function.
+
+
+![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/94cfbd9c-6ace-42ba-8b78-44320005e658)
+
 # Project3-part3
 Introduction to digital communication - quantization
 In this project, we learn about converting analog signals to digital and sending and detecting digital signals. First, an analog signal is converted into a discrete signal in the transmitter, and using quantization levels, the amplitude values of the transmitted pulses are determined in digital communications. Then this process is repeated in reverse in the receiver and interpolation is used to convert discrete to continuous signal.
