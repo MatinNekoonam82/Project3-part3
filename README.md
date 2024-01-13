@@ -1,3 +1,41 @@
+# Project3-part1
+
+In this section, we want to examine the Rayleigh random variable, and for this, let X and Y be two independent normal random variables
+We consider and examine Z = √((X^2+Y^2)), which is a random variable with Rayleigh distribution.
+
+As mentioned above, X and Y are two random variables with a normal distribution, whose mean is 0 and their variance is 1. Accordingly, we obtain the probability density function of the random variable Z and calculate the mean and variance of this distribution.
+
+We draw the obtained probability density function of the random variable Z in MATLAB:
+
+
+![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/66d451cf-baec-48ba-bca8-f23360a449e2)
+
+
+For each of the random variables X and Y, we generate a sequence of length N = 1000 and draw the histogram of each one separately.
+
+
+![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/9148dd75-9bf3-4528-a628-ebd153236693)
+
+
+Define Z = √((X^2+Y^2)) in this way and draw its histogram and calculate the mean and variance of the generated sequence.
+
+
+![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/0d7aae70-99b8-4d9b-ab69-b27050924bbb)
+
+
+Now we measure the mean which is equal to 1.2334 and then we measure the variance which is equal to 0.4359. And we see that it corresponds to the calculated values in part A.
+
+Now we reproduce parts b and c with N = 100000 and compare the results with part a.
+
+
+
+![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/f84d5c5f-4bc0-4eea-a546-ac4ab4e89f46)
+
+
+![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/462a3bf0-3256-4159-ab7b-b7ff3c00d0a4)
+
+
+We can see that the graphs have become more coherent and similar to their original form, and we can see the distributions with better accuracy.
 
 # Project3-part2
 
@@ -8,10 +46,6 @@ In this section, we want to investigate the following stochastic process and dra
 
 
 First, we obtain the mean and the autocorrelation function of the random process and then determine the type of the process.
-
-
-![image](https://github.com/MatinNekoonam82/Project3-part3/assets/156523741/d8770350-4c2d-43b7-b38f-2a3069317081)
-
 
 Considering that the mean is zero, it means that it is independent of time, and the autocorrelation function is independent of time, that is, it is not a function of t, but only a function of τ, so the type of process is WSS.
 
